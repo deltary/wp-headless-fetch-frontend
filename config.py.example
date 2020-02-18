@@ -1,0 +1,2 @@
+GITHUB_REPOSITORY_DISPATCH_URI = "https://api.github.com/repos/:owner/:repo/dispatches"
+ACCESS_TOKEN = ""
