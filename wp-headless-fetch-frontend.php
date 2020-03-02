@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP headless fetch frontend
- * Plugin URI: <URI>
+ * Plugin URI: <https://github.com/deltary/wp-headless-fetch-frontend>
  * Description: Fetch new frontend from GitHub artifacts on save_post
  * Version: 1.0
  * Author: Konsta Purtsi

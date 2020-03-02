@@ -1,3 +1,5 @@
-REPOSITORY_OWNER = "username"
+REPOSITORY_OWNER = "name"
 REPOSITORY_NAME = "repo"
-ACCESS_TOKEN = "token"
+WORKFLOW_NAME = "release.yml"
+ACCESS_TOKEN = ""
+EXTRACT_DIRECTORY = "./out"
