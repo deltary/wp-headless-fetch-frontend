@@ -19,12 +19,13 @@ function send_repository_dispatch($post_id) {
 
   $ACCESS_TOKEN = "637b21ebb444274335765991ea218d8601e98a70";
 
-  $response = wp_remote_post('https://api.github.com/repos/deltary/website/dispatches', array(
+  $response = wp_remote_post('https://api.github.com/repos/deltary/website/dispatches/', array(
       'method'    => 'POST',
       'headers'   => array(
         'User-Agent'      => 'https://delta.utu.fi',
         'Authorization'   => 'token ' . $ACCESS_TOKEN,
-        'accept'          => 'application/vnd.github.everest-preview+json'
+        'Accept'          => 'application/vnd.github.everest-preview+json',
+        'Content-Type'    => 'application/json'
       ),
       'body'      => array(
         'event_type'      => 'repository_dispatch',
