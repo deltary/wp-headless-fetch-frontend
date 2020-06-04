@@ -1,5 +1,0 @@
-REPOSITORY_OWNER = "name"
-REPOSITORY_NAME = "repo"
-WORKFLOW_NAME = "release.yml"
-ACCESS_TOKEN = ""
-EXTRACT_DIRECTORY = "./out"
