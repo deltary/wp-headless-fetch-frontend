@@ -43,9 +43,9 @@ add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
   
 function my_custom_dashboard_widgets() {
   global $wp_meta_boxes;
-  wp_add_dashboard_widget('custom_dashboard_help');
+  wp_add_dashboard_widget('custom_help_widget', 'Github status', 'custom_dashboard_help');
 }
  
 function custom_dashboard_help() {
-  echo '<h1>Github status</h1><img src="https://github.com/deltary/website/workflows/Build%20and%20deploy%20to%20production/badge.svg">';
+  echo '<img src="https://github.com/deltary/website/workflows/Build%20and%20deploy%20to%20production/badge.svg">';
 }
